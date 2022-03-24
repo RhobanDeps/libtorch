@@ -4,6 +4,6 @@ install:
     - unzip -u libtorch-shared-with-deps-latest.zip
     - rm libtorch-shared-with-deps-latest.zip
 
-cmake_prefix:
+cmake_prefixes:
     - libtorch/share/cmake/
 
